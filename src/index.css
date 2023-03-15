@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Golos+Text&family=Oswald:wght@300;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-home {
+  @apply w-[100%] text-center xl:text-left my-4 font-normal font-Sora
+}
+
+/* class RoadMap */
+.li-roadmap {
+  @apply w-[100%] h-[100%] flex justify-end 
+}
+
+.p-content-roadmap
+{
+  @apply px-[1rem] py-[1rem] border-solid border-black relative border-[1px] rounded-tr-[40px] rounded-bl-[40px]
+}
+
+.div-content-roadmap
+{
+  @apply container px-[1rem] py-[1rem] border-solid border-black w-[85%] sm:w-[75%] lg:w-[40%] h-fit border-[3px] rounded-tr-[50px] rounded-bl-[50px]
+}
+
+.title-content-roadmap
+{
+  @apply container block text-[1.25rem] sm:text-[2rem] capitalize font-Sora font-semibold leading-[23px]
+}
+
+.body-conten-roadmap 
+{
+  @apply container block text-[0.75em] sm:text-[0.875em] capitalize font-normal my-[0.5rem] font-Sora leading-3 sm:leading-4 lg:leading-5
+}
+
+/* ShowCase */
+.element-showcase
+{
+  @apply w-[12rem] mx-4 bg-white rounded-[20px] cursor-pointer flex justify-center flex-col
+}
+.information
+{
+  @apply flex justify-between px-4 py-[0.8rem] border-[2px] bg-black border-solid border-white rounded-b-[20px]
+}
+.span-information 
+{ 
+  @apply font-Sora font-semibold text-[0.875rem] leading-6 text-white
+}
+.h1-information {
+  @apply block cursor-pointer font-Sora text-[1rem] text-white font-semibold
+}
+
+.animation-div {
+  @apply animation-delay-none animation-iteration-infinite animation-direction-normal 
+  animation-fill-none animation-state-running animation-duration-1000 animation-timing-ease-out 
+}
+
+/* Team */
+.div-inforTeam
+{ 
+  @apply w-[calc(20rem-4vw)] py-4 mx-4 my-8 relative z-[5] border-solid border-[2px] border-black rounded-[20px] text-center flex flex-col justify-center 
+}
+.div-imgTeam {
+  @apply w-[80%] bg-white px-4 py-4 cursor-pointer border-solid border-[1px] border-black rounded-[20px]
+  bg-gradient-to-t from-red-500 to-red-300 flex justify-center
+}
+.h2-name {
+  @apply flex justify-center items-center mt-4 font-Sora uppercase font-bold text-[1.25rem]
+}
+.h2-achievements {
+  @apply flex justify-center items-center mt-4 font-Sora capitalize font-normal text-[1rem]
+}
+
+ /* Class FAQ */
+
+ .md-mobile-view {
+  @apply md:container md:max-w-[100%] 
+ }
+ .lg-desktop-view 
+ {
+  @apply  lg:container lg:max-w-[100%] 
+ }
+.md-mobile-h1
+{
+  @apply text-4xl uppercase text-white my-4 border-solid border-b-[2px] border-y-white font-Sora font-bold md:w-fit md:flex-col
+}
+.content
+{
+  @apply w-[100%] lg:w-[40%]  my-4 flex flex-col justify-center items-center
+}
+
+.div-content-mobile{
+  @apply md:w-[90%] w-[90%] md:flex md:flex-col md:justify-center
+}
+.div-content-desktop {
+  @apply lg:w-[80%] lg:flex lg:flex-row lg:justify-center lg:flex-wrap
+}
+
+/* Footer Class */
+.background-footer
+{
+  @apply container w-[100%] max-w-[100%] h-[15rem] lg:h-[28rem]  relative flex flex-col justify-center items-center overflow-hidden
+}
+.section-bg-flex
+{
+  @apply lg:flex-row
+}
+.h1-footer
+{
+  @apply text-red-500 text-[2rem] z-10 capitalize font-Sora font-bold leading-8
+}
+.h1-mobile{
+@apply py-8 
+}
+.property-buttonJoin
+{
+  @apply inline-block bg-white text-black outline-none border-none font-Sora font-semibold rounded-[50px] cursor-pointer relative
+}
+.prop-button-mobile {
+  @apply text-[14px] py-[8px] px-[2rem]
+}
