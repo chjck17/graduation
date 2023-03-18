@@ -8,7 +8,7 @@ const Contact = () => {
  function sendEmail(e) {
     e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
 
-    emailjs.sendForm('service_rmywku9', 'template_1r2mw31', e.target, 'YI3thNnaMMjsZPvGm')
+    emailjs.sendForm('service_5i1jkvd', 'template_3fptp4p', e.target, '7K3V5l2FVwPzywSJp')
       .then((result) => {
           window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
       }, (error) => {
