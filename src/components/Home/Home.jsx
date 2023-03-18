@@ -2,6 +2,8 @@ import React from 'react'
 import {  useTypewriter } from 'react-simple-typewriter'
 import videoIntro from "../../assets/video/Nhi.mp4"
 import logoBg from "../../assets/mobile/home.png"
+import nhimobile from "../../assets/mobile/showcasse/nhi_mobile.png"
+
 import '../Home/Home.css'
 import '../Team/Team.css'
 export const Home = () => {
@@ -28,7 +30,8 @@ Graduation is always the most memorable moment of my student days and i look for
             </div>
           </div></div>
         <div className="w-[80%] lg:w-[70%] lm:w-[70%] h-[70%]  lg:h-[80%] lm:h-[80%] lm: flex justify-center ">
-          <video src={videoIntro} autoPlay loop muted />
+          <video className='hidden lg:flex' src={videoIntro} autoPlay loop muted />
+          <img className='flex lg:hidden bg-center bg-cover bg-no-repeatbg-center bg-cover bg-no-repeat'  src={nhimobile}></img>
         </div>
         <div className='absolute rounded-[50%] border-solid border-[1px] border-black right-4 xl:left-4 xl:bottom-4
        h-16 w-16 bottom-[100%]'>
