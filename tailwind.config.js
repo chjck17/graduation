@@ -4,9 +4,25 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+
+    
+screens: {
+      sm: '480px',
+      md: '768px',
+      ls: '800px',
+      lx: '900px',
+      lg: '1024px',
+      lm:  '1200px',
+      xs:  '1300px',
+      xl: '1440px',
+    },
     fontFamily: {
       AkayaTelivigala: ["Akaya Telivigala"],
-      Sora: ["Sora"]
+      Sora: ["Sora"],
+      Great: ["Great Vibes"],
+      Climate: ["Climate Crisis"]
+
+      
     },
     extend: {
       animation: {

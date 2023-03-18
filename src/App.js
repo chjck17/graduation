@@ -2,13 +2,8 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import Narbar from "./components/Narbar/Narbar";
 import Home from "./components/Home/Home.jsx";
-import About from "./components/About/About";
-import RoadMap from "./components/RoadMap/RoadMap";
-import ShowCase from "./components/ShowCase/ShowCase";
 import Team from "./components/Team/Team";
-import FAQ from "./components/FAQ/FAQ";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer.js";
 import BtnBackMenu from "./components/BtnBackScrollHome/BtnBackMenu";
 function App() {
   const [isDesktop, setDesktop] = useState({
@@ -39,7 +34,7 @@ function App() {
 
   return (
     <div
-      className="relative overflow-y-auto overflow-x-hidden w-[100%]"
+      className="relative overflow-y-auto overflow-x-hidden w-[100%] h-[100%]"
       id="header"
     >
       <Narbar isMobile={isMobile} />
